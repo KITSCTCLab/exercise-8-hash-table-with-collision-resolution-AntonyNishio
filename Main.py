@@ -3,7 +3,7 @@ import re
 def display_hash(hashtable) -> None:
 	# Write your code here
 	 for i in range(len(hashTable)):
-        print(i, end = " ")
+            print(i, end = " ")
           
         for j in hashTable[i]:
             print("-->", end = " ")
@@ -33,3 +33,5 @@ for item in re.split('], |].', input_data):
     insert(HashTable, int(data[0]), data[1])
 
 display_hash (HashTable)
+
+print(HashTable)
