@@ -6,8 +6,8 @@ def display_hash(hashtable) -> None:
             print(i, end = " ")
           
             for j in hashtable[i]:
-                print("-->", end = " ")
-                print(j, end = " ")
+                print("-->", end = " '")
+                print(j, end = "' ")
               
             print()
 
